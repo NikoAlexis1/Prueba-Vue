@@ -1,5 +1,6 @@
 <script setup>
 import ContadorView from './components/ContadorView.vue'
+import Parent from './components/Parent.vue'
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import ContadorView from './components/ContadorView.vue'
         <RouterLink to="/about">About</RouterLink>
       </nav>
       <ContadorView />
+      <Parent />
     </div>
   </header>
 
