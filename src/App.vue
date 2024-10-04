@@ -11,9 +11,8 @@ import ContadorView from './components/ContadorView.vue'
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
+      <ContadorView />
     </div>
-
-    <ContadorView />
   </header>
 
   <RouterView />
