@@ -1,7 +1,6 @@
 <template>
     <div>
-        <h1>Parent</h1>
-        <p data-text="texto-recibido"> Texto: {{ textoRecibido }}</p>
+        <p>Texto: {{ textoRecibido }}</p>
         <Child @enviar="actualizarTexto" />
     </div>
 </template>
@@ -24,3 +23,10 @@ export default {
     }
 }
 </script>
+<style scoped>
+p {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+</style>
